@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-05-01 09:00:00+0600
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Two papers accepted at <strong>NAACL 2025</strong> (DravidianLangTech workshop) — fake news detection in Malayalam and misogyny meme classification using multimodal fusion. 🎉

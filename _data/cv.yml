@@ -1,189 +1,218 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Nazmus Sakib
+  label: Software Engineer & NLP Researcher
+  email: sakib.hb7@gmail.com
+  location: Dhaka, Bangladesh
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    CS graduate from CUET with a strong background in NLP research and full-stack software engineering.
+    Published at NAACL 2025 and COLING 2025. Currently working as a Software Engineer at AsthaIT Inc.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: nazmussakib
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: nazmussakib
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Chittagong University of Engineering & Technology (CUET)
+        location: Chittagong, Bangladesh
+        url: https://www.cuet.ac.bd/
+        area: Computer Science & Engineering
+        studyType: Bachelor of Science
+        start_date: 2020
+        end_date: 2025
+        score: "3.75 / 4.00"
+        courses: "Machine Learning, High Performance Computing, Software Architecture, Natural Language Processing, Data Structures & Algorithms, Artificial Intelligence"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Dean's Award — awarded for achieving CGPA above 3.75 (top academic distinction)"
+          - "Undergraduate Research Focus: Stress Identification from Bengali Social Media Texts Using Transformer-based Approaches"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Birsreshtha Noor Mohammad Public College
+        location: Dhaka, Bangladesh
+        area: Science
+        studyType: Higher Secondary School Certificate
+        start_date: 2017
+        end_date: 2019
+        score: "5.00 / 5.00"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Education Board Scholarship"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: AsthaIT Inc.
+        position: Software Engineer
+        location: Dhaka, Bangladesh
+        start_date: 2025-10
+        end_date: present
+        summary: ""
         highlights:
-          - Relativity
-          - Description 2.
+          - "Developed and maintained Apex4u.com, a high-traffic e-commerce platform (ASP.NET Core + Next.js, hosted on AWS EC2)"
+          - "Architected backend with Clean Architecture, SOLID principles, and dependency injection"
+          - "Designed real-time notification system using SignalR (WebSockets) — increased user engagement by 35%"
+          - "Integrated AWS S3 (CDN) and AWS SQS for decoupled message queuing in the POS subsystem"
+          - "Implemented Redis caching layer, improving API response times by ~40%"
+          - "Built CI/CD pipelines with GitHub Actions; containerized services with Docker"
+          - "Integrated Google Analytics Data API for real-time traffic analytics in admin dashboard"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Inument Solutions Limited
+        position: Software Engineer (AI/NLP)
+        location: Dhaka, Bangladesh
+        start_date: 2025-07
+        end_date: 2025-09
+        summary: ""
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Designed and built Taxinument, a RAG system for intelligent querying of financial and tax documents"
+          - "Implemented full data pipeline: PDF ingestion → chunking → OpenAI embeddings → Qdrant vector store → semantic retrieval"
+          - "Orchestrated multi-step LLM chains using LangChain with GPT-4; achieved 90%+ retrieval accuracy"
+          - "Exposed as production REST API via FastAPI; reduced query latency by 60% through caching and chunk optimization"
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: "Dean's Award, CUET"
+        date: 2025
+        awarder: Chittagong University of Engineering & Technology
+        summary: "Awarded for achieving CGPA ≥ 3.75 (highest academic distinction)"
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: "1st Place, .NET Leaderboard — Learnathon 3.0"
+        date: 2025
+        awarder: Brain Station 23
+        summary: "Ranked 1st on .NET Leaderboard; scored 98/100 on SonarCloud quality audit"
+
+      - title: "Honorable Mention — ICPC Dhaka Regional"
+        date: 2022
+        awarder: ICPC
+        summary: "Honorable Mention at ICPC Dhaka Regional 2022 Programming Contest"
+
+      - title: "13th Position — RMSTU Bangabandhu Online Divisional Programming Contest"
+        date: 2021
+        awarder: RMSTU
+        summary: ""
+
+      - title: "Education Board Scholarship — Higher Secondary School Certificate"
+        date: 2019
+        awarder: Bangladesh Education Board
+        summary: ""
+
+      - title: "15th Rank — BUET STEM Olympiad"
+        date: 2018
+        awarder: BUET
+        summary: ""
+
+      - title: "Education Board Scholarship — Secondary School Certificate"
+        date: 2017
+        awarder: Bangladesh Education Board
+        summary: ""
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "CUETNLP Big O@DravidianLangTech 2025: A BERT-based Approach to Detect Fake News from Malayalam Social Media Texts"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Nazmus Sakib
+          - Md. Refaj Hossan
+          - Alamgir Hossain
+          - Jawad Hossain
+          - Mohammed Moshiul Hoque
+        publisher: "DravidianLangTech@NAACL 2025, Association for Computational Linguistics"
+        releaseDate: 2025-05-01
+        url: ""
+        summary: "BERT-based approach for fake news detection in Malayalam social media texts. Pages 440–447, Albuquerque, New Mexico."
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "CUET Big O@NLU of Devanagari Script Languages 2025: Identifying Script Language and Detecting Hate Speech Using Deep Learning and Transformer Models"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Md. Refaj Hossan
+          - Nazmus Sakib
+          - Md. Alam Miah
+          - Jawad Hossain
+          - Mohammed Moshiul Hoque
+        publisher: "CHiPSAL@COLING 2025, International Committee on Computational Linguistics"
+        releaseDate: 2025-01-01
+        url: ""
+        summary: "Script language identification and hate speech detection using deep learning and Transformer models. Pages 253–259, Abu Dhabi, UAE."
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "CUETNLP Big O@DravidianLangTech 2025: A Multimodal Fusion-based Approach for Identifying Misogyny Memes"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Md. Refaj Hossan
+          - Nazmus Sakib
+          - Md. Alam Miah
+          - Jawad Hossain
+          - Mohammed Moshiul Hoque
+        publisher: "DravidianLangTech@NAACL 2025, Association for Computational Linguistics"
+        releaseDate: 2025-05-01
+        url: ""
+        summary: "Multimodal fusion architecture combining visual and textual features for misogyny meme classification. Pages 427–434, Albuquerque, New Mexico."
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: ML / Deep Learning
+        level: Advanced
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, TensorFlow, Scikit-learn, Hugging Face Transformers, BERT/RoBERTa/XLM-R, LangChain, OpenAI API"
+
+      - name: NLP Tools
+        level: Advanced
+        icon: fa-solid fa-language
+        keywords: "NLTK, SpaCy, Gensim, FastText, Sentence-Transformers, Tokenizers"
+
+      - name: Web & Backend
+        level: Advanced
+        icon: fa-solid fa-server
+        keywords: "ASP.NET Core, React.js, FastAPI, Flask, Node.js, Next.js"
+
+      - name: Databases & DevOps
+        level: Advanced
+        icon: fa-solid fa-database
+        keywords: "MSSQL Server, MongoDB, MySQL, Redis, Qdrant, Docker, GitHub Actions, AWS (EC2, S3, SQS)"
+
+      - name: Programming Languages
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, C#, Java, JavaScript, C++, C, PHP"
 
     Languages:
-      - name: German
+      - name: Bengali
         summary: "Native speaker"
 
       - name: English
         summary: "Fluent"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: "C# & .NET Development"
+        date: 2025-01-01
+        issuer: EDGE CUET IICT
+        icon: fa-solid fa-certificate
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: "Learnathon 3.0 Advanced .NET Hackathon"
+        date: 2025-01-01
+        issuer: Brain Station 23
+        icon: fa-solid fa-trophy
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Task Tracker System
+        summary: "Full-stack task management application using Clean Architecture, CQRS, and CI/CD automation. Ranked 1st on .NET Leaderboard at Learnathon 3.0 (Brain Station 23); scored 98/100 on SonarCloud quality audit."
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - "ASP.NET Core, ReactJS, Redis, MSSQL Server, GitHub Actions, Docker"
+          - "Ranked 1st on .NET Leaderboard at Learnathon 3.0"
+        start_date: 2025-01-01
+        end_date: 2025-01-01
+
+      - name: Connect CUET Alumni Platform
+        summary: "Alumni networking portal with discussion forums, job boards, and event management for 5000+ alumni."
+        highlights:
+          - "PHP, MySQL, Bootstrap, jQuery"
+        start_date: 2023-01-01
+        end_date: 2023-01-01
+
+      - name: Concurrent Queue Simulation Systems
+        summary: "Multithreaded Bank and Grocery Queue simulations demonstrating advanced concurrency concepts with zero deadlocks."
+        highlights:
+          - "Java, Multithreading, Concurrency"
+          - "Utilized locks and semaphores for thread synchronization"
+        start_date: 2024-01-01
+        end_date: 2024-01-01
 
     References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Dr. Abu Hasnat Mohammad Ashfak Habib
+        icon: fa-solid fa-user-tie
+        reference: "Professor, Dept. of CSE, Chittagong University of Engineering & Technology. Thesis Supervisor. Email: ashfak@cuet.ac.bd"
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Dr. Mohammed Moshiul Hoque
+        icon: fa-solid fa-user-tie
+        reference: "Professor, Dept. of CSE, Chittagong University of Engineering & Technology. Research Supervisor. Email: moshiul_240@cuet.ac.bd"
